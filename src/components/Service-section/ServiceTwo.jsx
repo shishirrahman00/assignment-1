@@ -1,4 +1,4 @@
-import { listTwo } from "../../data/List";
+import { listTwo } from "../../data/list";
 import { List } from "../List";
 
 export default function ServiceTwo() {
