@@ -20,7 +20,7 @@ export default function ServiceOne() {
         </p>
       </div>
       <div>
-        <img src="src\assets\features\feature-1.png" alt="" />
+        <img src="images/features/feature-1.png" alt="" />
       </div>
     </div>
   );
