@@ -1,3 +1,5 @@
+import { PricingCard } from "./PricingCard";
+
 export function Pricing() {
   // const pricingPlans = [
   //   {
@@ -50,7 +52,23 @@ export function Pricing() {
             and capital can unlock long-term value and drive economic growth.
           </p>
         </div>
-        <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0"></div>
+        <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+          <PricingCard
+            heading="Starter"
+            description="Best option for personal use & for your next project."
+            money="$29"
+          />
+          <PricingCard
+            heading="Company"
+            description="Relevant for multiple users, extended & premium support.."
+            money="$99"
+          />
+          <PricingCard
+            heading="Enterprise"
+            description="Best for large scale uses and extended redistribution rights."
+            money="$499"
+          />
+        </div>
       </div>
     </section>
   );

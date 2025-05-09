@@ -5,6 +5,8 @@ import Service from "./components/Service-section/Service";
 import Trial from "./components/Trial";
 
 import Footer from "./components/Footer-section/Footer";
+import { Pricing } from "./components/Pricing-section/Pricing";
+import ServiceSectionTwo from "./components/Service-section-2/ServiceSectionTwo";
 import Faq from "./components/Service-section/Faq";
 import Testimonial from "./components/Testimonal";
 
@@ -15,8 +17,9 @@ export default function App() {
       <HeroSection />
       <Brand />
       <Service />
-      {/* <Pricing /> */}
+      <ServiceSectionTwo />
       <Testimonial />
+      <Pricing />
 
       <Faq />
       <Trial />
