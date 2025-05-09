@@ -1,43 +1,43 @@
-export default function Pricing() {
-  const pricingPlans = [
-    {
-      title: "Starter",
-      description: "Best option for personal use & for your next project.",
-      price: "29",
-      features: [
-        "Individual configuration",
-        "No setup, or hidden fees",
-        "Team size: 1 developer",
-        "Premium support: 6 months",
-        "Free updates: 6 months",
-      ],
-    },
-    {
-      title: "Company",
-      description: "Relevant for multiple users, extended & premium support.",
-      price: "99",
-      features: [
-        "Individual configuration",
-        "No setup, or hidden fees",
-        "Team size: 10 developers",
-        "Premium support: 24 months",
-        "Free updates: 24 months",
-      ],
-    },
-    {
-      title: "Enterprise",
-      description:
-        "Best for large scale uses and extended redistribution rights.",
-      price: "499",
-      features: [
-        "Individual configuration",
-        "No setup, or hidden fees",
-        "Team size: 100+ developers",
-        "Premium support: 36 months",
-        "Free updates: 36 months",
-      ],
-    },
-  ];
+export function Pricing() {
+  // const pricingPlans = [
+  //   {
+  //     title: "Starter",
+  //     description: "Best option for personal use & for your next project.",
+  //     price: "29",
+  //     features: [
+  //       "Individual configuration",
+  //       "No setup, or hidden fees",
+  //       "Team size: 1 developer",
+  //       "Premium support: 6 months",
+  //       "Free updates: 6 months",
+  //     ],
+  //   },
+  //   {
+  //     title: "Company",
+  //     description: "Relevant for multiple users, extended & premium support.",
+  //     price: "99",
+  //     features: [
+  //       "Individual configuration",
+  //       "No setup, or hidden fees",
+  //       "Team size: 10 developers",
+  //       "Premium support: 24 months",
+  //       "Free updates: 24 months",
+  //     ],
+  //   },
+  //   {
+  //     title: "Enterprise",
+  //     description:
+  //       "Best for large scale uses and extended redistribution rights.",
+  //     price: "499",
+  //     features: [
+  //       "Individual configuration",
+  //       "No setup, or hidden fees",
+  //       "Team size: 100+ developers",
+  //       "Premium support: 36 months",
+  //       "Free updates: 36 months",
+  //     ],
+  //   },
+  // ];
   return (
     <section class="bg-white dark:bg-gray-900">
       <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">

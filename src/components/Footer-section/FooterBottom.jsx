@@ -3,7 +3,7 @@ import NavLogo from "../Navbar/Navlogo";
 export default function FooterBottom() {
   return (
     <>
-      <div className="flex justify-center items-center  mb-5 text-2xl font-semibold text-gray-900 dark:text-white text-5xl">
+      <div className="flex justify-center items-center text-2xl  mb-5  font-semibold text-gray-900 dark:text-white">
         <NavLogo />
       </div>
       <span class="block text-sm text-center text-gray-500 dark:text-gray-400">
